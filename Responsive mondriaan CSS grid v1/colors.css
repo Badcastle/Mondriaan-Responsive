@@ -1,0 +1,57 @@
+html,
+body {
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.container {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: rgb(255, 238, 0);
+}
+
+.blackverttop {
+    background-color: black;
+}
+
+.whitetop {
+    background-color: white;
+}
+
+.blackhorizon {
+    background-color: black;
+}
+
+.whitebottomleft {
+    background-color: white;
+}
+
+.blackvertbottomleft {
+    background-color: black;
+}
+
+.whitebottomcenter {
+    background-color: white;
+}
+
+.blackvertbottomright {
+    background-color: black;
+}
+
+.blackhorizonbottom {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blackhorizonright {
+    background-color: black;
+}
+
+.whitebottomright {
+    background-color: white;
+}

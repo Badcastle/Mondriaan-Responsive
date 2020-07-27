@@ -1,0 +1,74 @@
+.container {
+    padding: 10px whitesmoke;
+    height: 100%;
+    display: grid;
+    /* UGLY BORDER INSERT 
+    border: 1px dotted; */
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-areas:
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "y y y y y b w w w w w w w"
+        "h h h h h h h h h h h h h"
+        "c c c c c d e e e e e f i"
+        "c c c c c d e e e e e f i"
+        "c c c c c d e e e e e f j"
+        "c c c c c d e e e e e f k"
+        "c c c c c d e e e e e f k"
+        "c c c c c d g g g g g f k"
+}
+
+.yellow {
+    grid-area: y;
+}
+
+.blackverttop {
+    grid-area: b;
+}
+
+.whitetop {
+    grid-area: w;
+}
+
+.blackhorizon {
+    grid-area: h;
+}
+
+.whitebottomleft {
+    grid-area: c;
+}
+
+.blackvertbottomleft {
+    grid-area: d;
+}
+
+.whitebottomcenter {
+    grid-area: e;
+}
+
+.blackvertbottomright {
+    grid-area: f;
+}
+
+.blackhorizonbottom {
+    grid-area: g;
+}
+
+.blue {
+    grid-area: i;
+}
+
+.blackhorizonright {
+    grid-area: j;
+}
+
+.whitebottomright {
+    grid-area: k;
+}
